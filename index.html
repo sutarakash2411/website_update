@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Update Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Website Update Project</h1>
+        <p>This webpage has been updated as part of the Website Update Project using Jenkins and Ansible automation.</p>
+
+        <h2>Steps to update this page:</h2>
+        <ul>
+            <li>A custom <code>index.html</code> file was created and pushed to a GitHub repository.</li>
+            <li>Jenkins pulled the updated file from the GitHub repository using a Jenkins job.</li>
+            <li>Ansible was triggered within the same Jenkins job to copy the updated <code>index.html</code> file to the Apache webserver on a remote EC2 instance.</li>
+            <li>The Apache webserver was restarted to apply the changes and display this updated webpage.</li>
+        </ul>
+
+        <footer>
+            &copy; 2024 Website Update Project | Akash Sutar
+        </footer>
+    </div>
+
+</body>
+</html>
